@@ -28,3 +28,11 @@ print(f"R² Score:   {r2:.4f}")
 print(f"RMSE:       {rmse:.4f}")
 print(f"MAE:        {mae:.4f}")
 print(f"Range:     [{y_true.min():.2f}, {y_true.max():.2f}]")
+
+# Expected output ( local run ):
+"""
+R² Score:   0.8164
+RMSE:       0.4285
+MAE:        0.1018
+Range:     [-0.18, 18.93]
+"""
